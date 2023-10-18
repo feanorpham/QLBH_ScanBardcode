@@ -1,7 +1,7 @@
 # Chương trình quản lý bán hàng sử dụng scan bardcode (mã hàng hóa) theo mô hình 3 lớp, SQL Sever
 - Các chức năng trong chương trình gồm: Đăng nhập, quản lý hàng hóa, thanh toán hàng hóa, in hóa đơn, Scan mã bardcode, thống kê đơn giản, các chức khác như quản lý nhân viên, quản lý nhập xuất chưa hoàn thiện hoàn toàn có thể phát triển thêm ví dụ: thêm tự động tạo mã QR thanh toán ở `` FormThanhToan.cs `` cho khách hàng khi khách hàng muốn chuyển khoản ..vvv
 - Khi xóa một item trong datagridview có thể chưa cập nhập lại tự động tăng trên CSDL hoặc lỗi, mình đã viết hàm tự động update nhiều lúc bị lỗi các bạn có thể tự fix lại bằng cách vào csdl cập nhập lại bảng.
-- Trong file `` img_bardcode_scan `` có cảnh ảnh bardcode để mọi người test chức năng Scan bardcode, mình dùng chức năng này thay cho việc tìm kiếm 1 hàng hóa trên csdl luôn.
+- Trong file `` img_bardcode_scan `` có các ảnh bardcode để mọi người test chức năng Scan bardcode, mình dùng chức năng này thay cho việc tìm kiếm 1 hàng hóa trên csdl luôn.
 - Vì chưa có nhiều kinh nghiệm trong việc lập trình về appliction thức tế nên code còn khá tù mong mọi người thông cảm.
 # Các bước cài đặt
 1. Create data with file `` script `` in `` /file_tai_lieu/csdl  `` or roll back data file `` QLBH.bak `` (I use SQL SEVER 2022), the `` projectQLBH `` file is the file that creates the initial database you should create database with file `` script `` or you can actack file database in `` /GUI/DataBase/QLBH.mdf ``.
